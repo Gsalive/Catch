@@ -15,9 +15,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path='News-App/' element={<Login/>}></Route>
-          <Route  path='News-App/signup' element={<Signup/>}></Route>
-          <Route  path='News-App/hero' element={<TopStories apiKey={apiKey} section="home" />}></Route>
+          <Route exact path='/' element={<Login/>}></Route>
+          <Route  path='/signup' element={<Signup/>}></Route>
+          <Route  path='/hero' element={<TopStories apiKey={apiKey} section="home" />}></Route>
         </Routes>
       </Router>
     </>
